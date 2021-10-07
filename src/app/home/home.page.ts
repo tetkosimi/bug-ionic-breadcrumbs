@@ -6,7 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  breadData = [];
 
-  constructor() {}
+  constructor() {
+    this.addItems();
+  }
+
+  addItems() {
+    const start = this.breadData.length + 1;
+    this.breadData.push(
+      `Page ${start}`,
+      `Page ${start + 1}`,
+      `Page ${start + 2}`
+    );
+  }
 
 }
