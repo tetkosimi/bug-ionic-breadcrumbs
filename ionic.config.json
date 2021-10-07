@@ -1,0 +1,7 @@
+{
+  "name": "bug-ionic-breadcrumbs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
